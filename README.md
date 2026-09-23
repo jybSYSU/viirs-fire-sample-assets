@@ -15,9 +15,12 @@ library is not yet public.
 
 ## Categories
 
-Confirmed fire (day/night), industrial heat sources, photovoltaic plants,
-open persistent burning, high-temperature surfaces, urban, volcano,
-cropland, water / heated water, clean background, and a large-fire set.
+Grouped into fire and non-fire classes:
+
+- **Fire**: confirmed fire (daytime / nighttime), large-fire events
+- **Non-fire**: industrial heat sources, photovoltaic plants, open burning
+  (incl. volcano), high-temperature surfaces, urban, cropland (non-fire),
+  water bodies, heated water bodies, clean background
 
 ## Full data
 

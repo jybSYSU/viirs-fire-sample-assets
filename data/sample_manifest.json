@@ -1,67 +1,123 @@
 [
   {
-    "category": "背景_background",
-    "total": 7955,
-    "sampled": 16
-  },
-  {
-    "category": "城市_urban",
-    "total": 271,
-    "sampled": 16
-  },
-  {
-    "category": "高温屋顶地表_high_temp_roof_surface",
-    "total": 258,
-    "sampled": 16
-  },
-  {
-    "category": "工厂_industrial",
-    "total": 6146,
-    "sampled": 16
-  },
-  {
-    "category": "光伏_pv",
-    "total": 1217,
-    "sampled": 16
-  },
-  {
-    "category": "火山_volcano",
-    "total": 29,
-    "sampled": 16
-  },
-  {
-    "category": "露天固定燃烧_open_persistent_burn",
-    "total": 1387,
-    "sampled": 16
-  },
-  {
-    "category": "农田_cropland",
-    "total": 1590,
-    "sampled": 16
-  },
-  {
-    "category": "热水体_water_heat",
-    "total": 848,
-    "sampled": 16
-  },
-  {
-    "category": "水体_water",
-    "total": 3712,
-    "sampled": 16
-  },
-  {
-    "category": "真火/昼间",
+    "slug": "fire_day",
+    "group": "fire",
+    "name_en": "Confirmed fire (daytime)",
+    "sources": [
+      "真火/昼间"
+    ],
     "total": 38756,
     "sampled": 12
   },
   {
-    "category": "真火/夜间",
+    "slug": "fire_night",
+    "group": "fire",
+    "name_en": "Confirmed fire (nighttime)",
+    "sources": [
+      "真火/夜间"
+    ],
     "total": 963,
     "sampled": 12
   },
   {
-    "category": "bigfire2000",
+    "slug": "large_fire",
+    "group": "fire",
+    "name_en": "Large-fire events",
+    "sources": [
+      "bigfire2000"
+    ],
     "total": 145,
     "sampled": 12
+  },
+  {
+    "slug": "industrial",
+    "group": "non-fire",
+    "name_en": "Industrial heat sources",
+    "sources": [
+      "工厂_industrial"
+    ],
+    "total": 6146,
+    "sampled": 16
+  },
+  {
+    "slug": "pv_plant",
+    "group": "non-fire",
+    "name_en": "Photovoltaic plants",
+    "sources": [
+      "光伏_pv"
+    ],
+    "total": 1217,
+    "sampled": 16
+  },
+  {
+    "slug": "open_burning",
+    "group": "non-fire",
+    "name_en": "Open burning (incl. volcano)",
+    "sources": [
+      "露天固定燃烧_open_persistent_burn",
+      "火山_volcano"
+    ],
+    "total": 1416,
+    "sampled": 20
+  },
+  {
+    "slug": "hot_surface",
+    "group": "non-fire",
+    "name_en": "High-temperature surfaces",
+    "sources": [
+      "高温屋顶地表_high_temp_roof_surface"
+    ],
+    "total": 258,
+    "sampled": 16
+  },
+  {
+    "slug": "urban",
+    "group": "non-fire",
+    "name_en": "Urban / mixed industrial",
+    "sources": [
+      "城市_urban"
+    ],
+    "total": 271,
+    "sampled": 16
+  },
+  {
+    "slug": "cropland",
+    "group": "non-fire",
+    "name_en": "Cropland (non-fire)",
+    "sources": [
+      "农田_cropland"
+    ],
+    "total": 1590,
+    "sampled": 16
+  },
+  {
+    "slug": "water",
+    "group": "non-fire",
+    "name_en": "Water bodies",
+    "sources": [
+      "水体_water"
+    ],
+    "total": 3712,
+    "sampled": 16
+  },
+  {
+    "slug": "heated_water",
+    "group": "non-fire",
+    "name_en": "Heated water bodies",
+    "sources": [
+      "热水体_water_heat"
+    ],
+    "total": 848,
+    "sampled": 16
+  },
+  {
+    "slug": "background",
+    "group": "non-fire",
+    "name_en": "Clean background",
+    "sources": [
+      "背景_background"
+    ],
+    "total": 7955,
+    "sampled": 16
   }
 ]
