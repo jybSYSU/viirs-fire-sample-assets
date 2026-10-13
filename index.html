@@ -10,7 +10,9 @@
 body { margin:0; font-family:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; color:var(--fg); background:var(--bg); line-height:1.6; }
 .wrap { max-width:1080px; margin:0 auto; padding:0 20px; }
 h1,h2,h3,header.hero h1 { font-family:Georgia,"Times New Roman",serif; }
-header.hero { background:linear-gradient(135deg,#16222e,#3a5a78); color:#fff; padding:56px 0 40px; border-bottom:4px solid var(--accent); }
+header.hero { background:linear-gradient(rgba(16,28,40,.58),rgba(16,28,40,.75)), url("images/banner.jpg") center 38%/cover no-repeat; color:#fff; padding:80px 0 52px; border-bottom:4px solid var(--accent); }
+header.hero h1, header.hero p.sub { text-shadow:0 2px 8px rgba(0,0,0,.5); }
+.about-img { float:right; width:250px; max-width:38%; border-radius:6px; border:1px solid #e2e6ec; margin:2px 0 10px 20px; }
 .profile { display:flex; gap:30px; flex-wrap:wrap; }
 .profile .side { width:220px; flex-shrink:0; text-align:center; border-right:1px solid #e2e6ec; padding-right:24px; }
 .avatar { width:124px; height:124px; border-radius:50%; margin:4px auto 12px; object-fit:cover; border:3px solid #16222e; display:block; }
@@ -121,7 +123,9 @@ code { background:#eef1f5; padding:1px 6px; border-radius:4px; }
 </div>
 
 <h2 class="sec">What this library is</h2>
-<p class="lead">Every sample was reviewed by a human analyst against multi-source evidence
+<div class="card" style="margin-top:14px; overflow:auto">
+<img class="about-img" src="images/dish.jpg" alt="GZMSS antenna">
+<p class="lead" style="margin-top:0">Every sample was reviewed by a human analyst against multi-source evidence
 (VIIRS I04/M13 brightness-temperature patches, Sentinel-2 time series, Landsat, NDVI,
 geostationary AHI detections, and sub-metre Google Earth historical scenes).
 The library pairs confirmed real fires with hard-negative categories that operational
@@ -131,6 +135,7 @@ Figure production is documented in
 <a href="https://github.com/jybSYSU/viirs-fire-sample-assets/blob/main/METHODOLOGY.md">METHODOLOGY.md</a>;
 category definitions in the
 <a href="https://github.com/jybSYSU/viirs-fire-sample-assets/blob/main/README.md">README</a>.</p>
+</div>
 
 <h2 class="sec">Fire samples</h2>
 <section class="card" id="fire_day">
