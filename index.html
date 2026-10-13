@@ -11,6 +11,22 @@ body { margin:0; font-family:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Ar
 .wrap { max-width:1080px; margin:0 auto; padding:0 20px; }
 h1,h2,h3,header.hero h1 { font-family:Georgia,"Times New Roman",serif; }
 header.hero { background:linear-gradient(135deg,#16222e,#3a5a78); color:#fff; padding:56px 0 40px; border-bottom:4px solid var(--accent); }
+.profile { display:flex; gap:30px; flex-wrap:wrap; }
+.profile .side { width:220px; flex-shrink:0; text-align:center; border-right:1px solid #e2e6ec; padding-right:24px; }
+.avatar { width:104px; height:104px; border-radius:50%; margin:4px auto 12px; background:#16222e; color:#fff; font-size:2.5rem; line-height:104px; font-family:"Songti SC","SimSun",serif; }
+.side .nm { font-size:1.2rem; font-weight:700; }
+.side .nme { color:var(--muted); font-style:italic; margin-bottom:6px; }
+.side .ttl { font-size:.85rem; color:var(--muted); margin-bottom:10px; }
+.side .ct { font-size:.8rem; text-align:left; color:var(--muted); }
+.side .ct div { margin:5px 0; }
+.profile .mn { flex:1; min-width:300px; }
+.profile h3 { font-size:.92rem; color:var(--accent); margin:14px 0 6px; letter-spacing:.5px; }
+table.edu { width:100%; border-collapse:collapse; font-size:.88rem; }
+table.edu td { padding:5px 8px; border-bottom:1px dashed #e2e6ec; vertical-align:top; }
+table.edu td.yr { width:92px; color:var(--muted); white-space:nowrap; }
+.en { color:var(--muted); font-size:.82rem; font-style:italic; }
+ul.pbs { font-size:.84rem; color:var(--muted); padding-left:18px; margin:0; }
+ul.pbs li { margin:5px 0; }
 header.hero h1 { margin:0 0 8px; font-size:2rem; }
 header.hero p.sub { margin:0; opacity:.85; }
 .stats { display:flex; flex-wrap:wrap; gap:28px; margin-top:26px; }
@@ -67,19 +83,43 @@ code { background:#eef1f5; padding:1px 6px; border-radius:4px; }
 
 <h2 class="sec">Maintainer · 维护人</h2>
 <div class="card" style="margin-top:14px">
-  <p style="margin:0 0 6px"><b style="font-size:1.05rem">Yinbao Jin · 晋银保</b><br>
-  <span class="blurb">Engineer, Ph.D. · 工程师·博士 — Remote Sensing Division, Guangzhou Meteorological
-  Satellite Ground Station (Guangdong Provincial Center for Meteorological Satellite Remote Sensing)<br>
-  广州气象卫星地面站（广东省气象卫星遥感中心）遥感科室</span></p>
-  <p class="blurb" style="margin:0 0 6px">Research: wildfire remote sensing; multi-satellite synergistic
-  fire detection; aerosol–fire interactions · 研究方向：林火遥感、多源卫星协同火点判识、气溶胶–火相互作用</p>
-  <p class="blurb" style="margin:0">Contact / 联系：<code>jinyb_gzmss@yeah.net</code> ·
-  280 Dongguanzhuang Rd., Tianhe, Guangzhou 510640, China · 广东省广州市天河区东莞庄路 280 号</p>
-  <p class="blurb" style="margin:10px 0 0">Selected publications · 代表论文：
-  <b>Jin, Y.</b> et al., <i>Atmos. Chem. Phys.</i> 24(1):367–395, 2024 (first author) ·
-  Huang, H., <b>Jin, Y.</b> et al., <i>Remote Sens.</i> 16(11), 2024 (co-first author) ·
-  <b>Jin, Y.</b> et al., <i>Remote Sens.</i> 14(14), 2022 (first author) ·
-  Ma, Y., <b>Jin, Y.</b> (corresponding) et al., <i>Sci. Total Environ.</i> 757, 2021</p>
+<div class="profile">
+  <aside class="side">
+    <div class="avatar">晋</div>
+    <div class="nm">晋银保</div>
+    <div class="nme">Yinbao Jin</div>
+    <div class="ttl">工程师 · 博士<br>Engineer, Ph.D.</div>
+    <div class="ct">
+      <div>✉ <a href="mailto:jinyb_gzmss@yeah.net">jinyb_gzmss@yeah.net</a></div>
+      <div>⚲ 广州 天河区东莞庄路 280 号<br>&nbsp;&nbsp;Tianhe, Guangzhou, China</div>
+    </div>
+  </aside>
+  <div class="mn">
+    <p style="margin-top:0"><b>广州气象卫星地面站（广东省气象卫星遥感中心）遥感科室</b><br>
+    <span class="en">Remote Sensing Division, Guangzhou Meteorological Satellite Ground Station
+    (Guangdong Provincial Center for Meteorological Satellite Remote Sensing)</span></p>
+    <h3>Education · 教育经历</h3>
+    <table class="edu">
+      <tr><td class="yr">2021–2025</td><td><b>中山大学</b> 大气科学 博士<br>
+      <span class="en">Ph.D., Atmospheric Science, Sun Yat-sen University</span></td></tr>
+      <tr><td class="yr">2017–2020</td><td><b>武汉大学</b> 测绘工程 硕士<br>
+      <span class="en">M.Eng., Geomatics Engineering, Wuhan University</span></td></tr>
+      <tr><td class="yr">2012–2016</td><td><b>中国矿业大学银川学院</b> 测绘工程 学士<br>
+      <span class="en">B.Eng., Geomatics Engineering, Yinchuan College of CUMT</span></td></tr>
+    </table>
+    <h3>Research · 研究方向</h3>
+    <p class="blurb" style="margin:0">林火遥感监测 · 多源卫星协同火点判识 · 气溶胶–火相互作用<br>
+    <span class="en">Wildfire remote sensing · multi-satellite synergistic fire detection ·
+    aerosol–fire interactions</span></p>
+    <h3>Selected publications · 代表论文</h3>
+    <ul class="pbs">
+      <li><b>Jin, Y.</b> et al., 2024. <i>Atmos. Chem. Phys.</i> 24(1): 367–395.（第一作者 / first author）</li>
+      <li>Huang, H., <b>Jin, Y.</b> et al., 2024. <i>Remote Sens.</i> 16(11).（共同一作 / co-first author）</li>
+      <li><b>Jin, Y.</b> et al., 2022. <i>Remote Sens.</i> 14(14).（第一作者 / first author）</li>
+      <li>Ma, Y., <b>Jin, Y.</b> et al., 2021. <i>Sci. Total Environ.</i> 757.（通讯作者 / corresponding author）</li>
+    </ul>
+  </div>
+</div>
 </div>
 
 <h2 class="sec">What this library is</h2>
