@@ -3,121 +3,140 @@
     "slug": "fire_day",
     "group": "fire",
     "name_en": "Confirmed fire (daytime)",
-    "sources": [
-      "真火/昼间"
-    ],
+    "blurb": "Human-confirmed real fires observed in daytime VIIRS overpasses.",
+    "dir": "fire/day",
     "total": 38756,
-    "sampled": 12
+    "unit": "figures",
+    "sampled": 4
   },
   {
     "slug": "fire_night",
     "group": "fire",
     "name_en": "Confirmed fire (nighttime)",
-    "sources": [
-      "真火/夜间"
-    ],
+    "blurb": "Human-confirmed real fires observed in nighttime overpasses.",
+    "dir": "fire/night",
     "total": 963,
-    "sampled": 12
+    "unit": "figures",
+    "sampled": 4
   },
   {
     "slug": "large_fire",
     "group": "fire",
-    "name_en": "Large-fire events",
-    "sources": [
-      "bigfire2000"
-    ],
+    "name_en": "Large fire events",
+    "blurb": "Large fire events (bigfire2000 collection).",
+    "dir": "large_fire",
     "total": 145,
-    "sampled": 12
+    "unit": "figures",
+    "sampled": 4
+  },
+  {
+    "slug": "large_fire_v5_full",
+    "group": "fire",
+    "name_en": "Large fire events (v5 full set)",
+    "blurb": "v5 full re-render of the large-fire collection; 145 ids overlap with large_fire.",
+    "dir": "large_fire_v5_full",
+    "total": 1999,
+    "unit": "figures",
+    "sampled": 4
   },
   {
     "slug": "industrial",
-    "group": "non-fire",
-    "name_en": "Industrial heat sources",
-    "sources": [
-      "工厂_industrial"
-    ],
-    "total": 6146,
-    "sampled": 16
+    "group": "nonfire",
+    "name_en": "Industrial heat source",
+    "blurb": "Factories and industrial heat sources, incl. persistent sources.",
+    "dir": "industrial",
+    "total": 6692,
+    "unit": "figures",
+    "sampled": 4
   },
   {
     "slug": "pv_plant",
-    "group": "non-fire",
-    "name_en": "Photovoltaic plants",
-    "sources": [
-      "光伏_pv"
-    ],
-    "total": 1217,
-    "sampled": 16
+    "group": "nonfire",
+    "name_en": "Photovoltaic power plant",
+    "blurb": "PV plants — shown as Google Earth before/after pairs bracketing the event date.",
+    "dir": "pv_plant",
+    "total": 1418,
+    "unit": "cases",
+    "sampled": 6
   },
   {
-    "slug": "open_burning",
-    "group": "non-fire",
-    "name_en": "Open burning (incl. volcano)",
-    "sources": [
-      "露天固定燃烧_open_persistent_burn",
-      "火山_volcano"
-    ],
-    "total": 1416,
-    "sampled": 20
+    "slug": "open_persistent_burning",
+    "group": "nonfire",
+    "name_en": "Open / persistent burning",
+    "blurb": "Open burning and open-pit coal combustion.",
+    "dir": "open_persistent_burning",
+    "total": 1729,
+    "unit": "figures",
+    "sampled": 4
   },
   {
     "slug": "hot_surface",
-    "group": "non-fire",
-    "name_en": "High-temperature surfaces",
-    "sources": [
-      "高温屋顶地表_high_temp_roof_surface"
-    ],
-    "total": 258,
-    "sampled": 16
+    "group": "nonfire",
+    "name_en": "High-temperature roof / hot surface",
+    "blurb": "High-temperature roofs and hot ground surfaces.",
+    "dir": "hot_surface",
+    "total": 290,
+    "unit": "figures",
+    "sampled": 4
   },
   {
     "slug": "urban",
-    "group": "non-fire",
-    "name_en": "Urban / mixed industrial",
-    "sources": [
-      "城市_urban"
-    ],
-    "total": 271,
-    "sampled": 16
+    "group": "nonfire",
+    "name_en": "Urban / industrial mix",
+    "blurb": "Urban and industrial mixed areas.",
+    "dir": "urban",
+    "total": 277,
+    "unit": "figures",
+    "sampled": 4
   },
   {
     "slug": "cropland",
-    "group": "non-fire",
+    "group": "nonfire",
     "name_en": "Cropland (non-fire)",
-    "sources": [
-      "农田_cropland"
-    ],
+    "blurb": "Cropland heat waves / residue burning appearances.",
+    "dir": "cropland",
     "total": 1590,
-    "sampled": 16
+    "unit": "figures",
+    "sampled": 4
   },
   {
     "slug": "water",
-    "group": "non-fire",
-    "name_en": "Water bodies",
-    "sources": [
-      "水体_water"
-    ],
+    "group": "nonfire",
+    "name_en": "Water body",
+    "blurb": "Water bodies.",
+    "dir": "water",
     "total": 3712,
-    "sampled": 16
+    "unit": "figures",
+    "sampled": 4
   },
   {
     "slug": "heated_water",
-    "group": "non-fire",
-    "name_en": "Heated water bodies",
-    "sources": [
-      "热水体_water_heat"
-    ],
+    "group": "nonfire",
+    "name_en": "Heated water / fixed offshore source",
+    "blurb": "Fixed heat sources on water (e.g. offshore platforms).",
+    "dir": "heated_water",
     "total": 848,
-    "sampled": 16
+    "unit": "figures",
+    "sampled": 4
+  },
+  {
+    "slug": "volcano",
+    "group": "nonfire",
+    "name_en": "Volcano",
+    "blurb": "Volcanic activity.",
+    "dir": "volcano",
+    "total": 29,
+    "unit": "figures",
+    "sampled": 4
   },
   {
     "slug": "background",
-    "group": "non-fire",
+    "group": "nonfire",
     "name_en": "Clean background",
-    "sources": [
-      "背景_background"
-    ],
+    "blurb": "Clean background scenes.",
+    "dir": "background",
     "total": 7955,
-    "sampled": 16
+    "unit": "figures",
+    "sampled": 4
   }
 ]
