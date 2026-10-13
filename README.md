@@ -12,7 +12,8 @@ Guangzhou, Guangdong, China · Contact: jinyb_gzmss@yeah.net
 - **Full figure archive — live, self-hosted**:
   http://120.77.78.161:8443 — all ~78,500 review images (~105 GB),
   browsable and downloadable by category
-- **DOI archive (Zenodo)**: planned upon publication of the accompanying paper
+- **Full data release**: index tables and data tensors will be released together
+  with the accompanying paper
 
 ## What is here
 
@@ -53,5 +54,5 @@ scripts/push.sh             publish helper
 
 No CSV files with coordinates or training metadata are released before the
 paper is published. The full archive (including index tables and patch
-tensors) will be deposited with a DOI upon publication. For collaboration in
+tensors) will be released together with the paper. For collaboration in
 the meantime, open an Issue or email us.
