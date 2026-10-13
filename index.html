@@ -9,7 +9,8 @@
 * { box-sizing:border-box; }
 body { margin:0; font-family:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; color:var(--fg); background:var(--bg); line-height:1.6; }
 .wrap { max-width:1080px; margin:0 auto; padding:0 20px; }
-header.hero { background:linear-gradient(135deg,#16222e,#3a5a78); color:#fff; padding:56px 0 40px; }
+h1,h2,h3,header.hero h1 { font-family:Georgia,"Times New Roman",serif; }
+header.hero { background:linear-gradient(135deg,#16222e,#3a5a78); color:#fff; padding:56px 0 40px; border-bottom:4px solid var(--accent); }
 header.hero h1 { margin:0 0 8px; font-size:2rem; }
 header.hero p.sub { margin:0; opacity:.85; }
 .stats { display:flex; flex-wrap:wrap; gap:28px; margin-top:26px; }
@@ -58,9 +59,27 @@ code { background:#eef1f5; padding:1px 6px; border-radius:4px; }
   <p>A citable archive with DOI will be deposited on <b>Zenodo</b> upon publication of the
   accompanying paper. This GitHub repository holds documentation and example figures only —
   no CSV files with coordinates or training metadata are released before publication.
+  Live access statistics: <a href="http://120.77.78.161:8443/stats.html">http://120.77.78.161:8443/stats.html</a>.
   Questions or collaboration: open an
   <a href="https://github.com/jybSYSU/viirs-fire-sample-assets/issues">Issue</a> or email
   <code>jinyb_gzmss@yeah.net</code>.</p>
+</div>
+
+<h2 class="sec">Maintainer · 维护人</h2>
+<div class="card" style="margin-top:14px">
+  <p style="margin:0 0 6px"><b style="font-size:1.05rem">Yinbao Jin · 晋银保</b><br>
+  <span class="blurb">Engineer, Ph.D. · 工程师·博士 — Remote Sensing Division, Guangzhou Meteorological
+  Satellite Ground Station (Guangdong Provincial Center for Meteorological Satellite Remote Sensing)<br>
+  广州气象卫星地面站（广东省气象卫星遥感中心）遥感科室</span></p>
+  <p class="blurb" style="margin:0 0 6px">Research: wildfire remote sensing; multi-satellite synergistic
+  fire detection; aerosol–fire interactions · 研究方向：林火遥感、多源卫星协同火点判识、气溶胶–火相互作用</p>
+  <p class="blurb" style="margin:0">Contact / 联系：<code>jinyb_gzmss@yeah.net</code> ·
+  280 Dongguanzhuang Rd., Tianhe, Guangzhou 510640, China · 广东省广州市天河区东莞庄路 280 号</p>
+  <p class="blurb" style="margin:10px 0 0">Selected publications · 代表论文：
+  <b>Jin, Y.</b> et al., <i>Atmos. Chem. Phys.</i> 24(1):367–395, 2024 (first author) ·
+  Huang, H., <b>Jin, Y.</b> et al., <i>Remote Sens.</i> 16(11), 2024 (co-first author) ·
+  <b>Jin, Y.</b> et al., <i>Remote Sens.</i> 14(14), 2022 (first author) ·
+  Ma, Y., <b>Jin, Y.</b> (corresponding) et al., <i>Sci. Total Environ.</i> 757, 2021</p>
 </div>
 
 <h2 class="sec">What this library is</h2>
