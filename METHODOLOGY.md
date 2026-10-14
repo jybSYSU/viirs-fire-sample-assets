@@ -1,8 +1,9 @@
 # Methodology — How the Evidence Figures Are Produced
 
-> This document describes the Google Earth before/after figures in
-> `pv_plant/`. Figures in the other category folders are multi-panel review
-> composites produced during label auditing (see README, "Figure format").
+> This document describes the Google Earth before/after figures now archived
+> in `_archive_ge_before_after_pv_20261014/`. The main library categories
+> (including `pv/`) hold multi-panel review composites produced during label
+> auditing (see README, "Figure format").
 
 ## Goal
 
@@ -57,7 +58,7 @@ noted in the review record.
 3 concurrent samples × 8 tile threads is stable; one full batch
 (availability + before + after per sample) takes ≈10 s per sample-side.
 
-## Batch provenance (pv_plant)
+## Batch provenance (archived GE before/after set)
 
 The 1,418 PV-plant cases were produced in three batches (94 + 790 + 534),
 all with the protocol above; 782/790, and equivalent rates in the other

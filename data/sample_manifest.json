@@ -20,26 +20,6 @@
     "sampled": 4
   },
   {
-    "slug": "large_fire",
-    "group": "fire",
-    "name_en": "Large fire events",
-    "blurb": "Large fire events (bigfire2000 collection).",
-    "dir": "large_fire",
-    "total": 145,
-    "unit": "figures",
-    "sampled": 4
-  },
-  {
-    "slug": "large_fire_v5_full",
-    "group": "fire",
-    "name_en": "Large fire events (v5 full set)",
-    "blurb": "v5 full re-render of the large-fire collection; 145 ids overlap with large_fire.",
-    "dir": "large_fire_v5_full",
-    "total": 1999,
-    "unit": "figures",
-    "sampled": 4
-  },
-  {
     "slug": "industrial",
     "group": "nonfire",
     "name_en": "Industrial heat source",
@@ -50,14 +30,14 @@
     "sampled": 4
   },
   {
-    "slug": "pv_plant",
+    "slug": "pv",
     "group": "nonfire",
     "name_en": "Photovoltaic power plant",
-    "blurb": "PV plants — shown as Google Earth before/after pairs bracketing the event date.",
-    "dir": "pv_plant",
-    "total": 1418,
-    "unit": "cases",
-    "sampled": 6
+    "blurb": "Photovoltaic plants — a common false positive for operational VIIRS fire products.",
+    "dir": "pv",
+    "total": 1305,
+    "unit": "figures",
+    "sampled": 4
   },
   {
     "slug": "open_persistent_burning",

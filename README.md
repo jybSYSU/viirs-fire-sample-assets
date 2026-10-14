@@ -18,8 +18,7 @@ Guangzhou, Guangdong, China · Contact: jinyb_gzmss@yeah.net
 ## What is here
 
 The training library (snapshot 2026-09-14) holds **63,714 human-reviewed
-samples** in 14 categories: confirmed real fires (day/night, plus a large-fire
-collection) and hard negatives that operational VIIRS fire products commonly
+samples** in 11 categories: confirmed real fires (day/night) and hard negatives that operational VIIRS fire products commonly
 confuse with fires (industrial heat sources, photovoltaic plants, open/persistent
 burning, hot roofs and surfaces, urban areas, cropland, water, heated water,
 volcanoes, clean background).
@@ -38,9 +37,8 @@ scripts/push.sh             publish helper
 | Category | Contents |
 |---|---|
 | `fire/day`, `fire/night` | Confirmed fires, by overpass illumination — 38,756 / 963 figures |
-| `large_fire`, `large_fire_v5_full` | Large-fire event collections — 145 / 1,999 figures |
 | `industrial` | Factories & industrial heat sources — 6,692 |
-| `pv_plant` | Photovoltaic plants — 1,418 Google Earth before/after cases |
+| `pv` | Photovoltaic plants — 1,305 review figures |
 | `open_persistent_burning` | Open burning / open-pit coal combustion — 1,729 |
 | `hot_surface` | High-temperature roofs / hot surfaces — 290 |
 | `urban` | Urban / industrial mixed areas — 277 |
